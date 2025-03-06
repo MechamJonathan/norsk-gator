@@ -47,7 +47,6 @@ func GetConfigFilePath() (string, error) {
 
 	fullpath := filepath.Join(home, configFileName)
 	return fullpath, nil
-
 }
 
 func Write(cfg Config) error {

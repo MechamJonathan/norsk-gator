@@ -20,6 +20,5 @@ func (c *commands) run(s *state, cmd command) error {
 	if !ok {
 		return errors.New("command not found")
 	}
-
 	return f(s, cmd)
 }
