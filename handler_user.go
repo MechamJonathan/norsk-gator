@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func handlerLogin(s *state, cmd command) error {
+func handlerLogin(s *state, cmd commands) error {
 	if len(cmd.Args) != 1 {
 		return fmt.Errorf("usage: %s <name>", cmd.Name)
 	}
