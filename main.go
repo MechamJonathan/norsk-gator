@@ -7,7 +7,7 @@ import (
 	"github.com/MechamJonathan/norsk-gator/internal/config"
 )
 
-type State struct {
+type state struct {
 	cfg *config.Config
 }
 
